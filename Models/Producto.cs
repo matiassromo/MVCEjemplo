@@ -7,6 +7,7 @@
         public string Descripcion { get;}
         public int Cantidad { get; set; }
 
+
         public Producto(int IdProducto, string Nombre, string Descripcion, int Cantidad)
         {
             this.IdProducto = IdProducto;
@@ -15,11 +16,6 @@
             this.Cantidad = Cantidad;
 
         }
-
-
-
-
     }
 
-    
 }

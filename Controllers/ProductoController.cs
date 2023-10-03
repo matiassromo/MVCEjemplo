@@ -25,7 +25,13 @@ namespace MVCEjemplo1.Controllers
         {
             return View();
         }
- 
+
+        [HttpPost]
+        public ActionResult Create(Producto producto)
+        {
+            return View();
+        }
+
 
         // GET: ProductoController/Edit/5
         public ActionResult Edit(int id)
