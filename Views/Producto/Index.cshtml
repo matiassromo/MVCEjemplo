@@ -28,9 +28,9 @@
                 <td >@producto.Cantidad</td>
                 <td>
                     <div>
-                        <a class="btn btn-primary" href="#" role="button">Detalles     <i class="bi bi-info-circle"></i></a>
-                        <a class="btn btn-warning" href="#" role="button">Editar       <i class="bi bi-pencil-square"></i></a>
-                        <a class="btn btn-danger" href="#" role="button">Eliminar      <i class="bi bi-trash"></i></a>
+                        <a asp-action="Details" asp-route-IdProducto="@producto.IdProducto" class="btn btn-primary">Detalles     <i class="bi bi-info-circle"></i></a>
+                        <a asp-action="Edit" asp-route-IdProducto="@producto.IdProducto" class="btn btn-warning">Editar       <i class="bi bi-pencil-square"></i></a>
+                        <a asp-action="Delete" asp-route-IdProducto="@producto.IdProducto" class="btn btn-danger" >Eliminar      <i class="bi bi-trash"></i></a>
                     </div>
                 </td>
             </tr>

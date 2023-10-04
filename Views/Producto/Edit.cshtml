@@ -1,23 +1,23 @@
 ﻿@model Producto
 @{
-    ViewData["Title"] = "Detalle de productos";
+    ViewData["Title"] = "Editar productos";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Esta es la vista para detalle de productos</p>
+<p>Esta es la vista para editar productos</p>
 
 <form method="post">
     <div class="mb-3">
         <label>Nombre</label>
-        <input asp-for="Nombre" class="form-control" disabled>
+        <input asp-for="Nombre" class="form-control">
     </div>
     <div class="mb-3">
         <label>Descripcion</label>
-        <input asp-for="Descripcion" class="form-control"disabled>
+        <input asp-for="Descripcion" class="form-control">
     </div>
     <div class="mb-3">
         <label>Cantidad</label>
-        <input asp-for="Cantidad" class="form-control" disabled>
+        <input asp-for="Cantidad" class="form-control">
     </div>
     <div class="row col-6">
         <div class="col-6 col-md-6">

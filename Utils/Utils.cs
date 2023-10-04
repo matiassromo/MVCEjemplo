@@ -6,10 +6,34 @@ namespace MVCEjemplo1.Utils
     {
         public static List<Producto> listaProductos = new List<Producto>()
         {
-            new Producto(1, "Producto 1", "Descripcion 1", 3),
-            new Producto(2, "Producto 2", "Descripcion 2", 4),
-            new Producto(3, "Producto 3", "Descripcion 3", 8),
-            new Producto(4, "Producto 4", "Descripcion 4", 3),
+            new Producto
+            {
+                IdProducto = 1,
+                Nombre = "Producto 1",
+                Descripcion = "Descripcion 1",
+                Cantidad = 4
+            },
+            new Producto
+            {
+                IdProducto = 2,
+                Nombre = "Producto 2",
+                Descripcion = "Descripcion 2",
+                Cantidad = 4
+            },
+            new Producto
+            {
+                IdProducto = 3,
+                Nombre = "Producto 3",
+                Descripcion = "Descripcion 3",
+                Cantidad = 4
+            },
+            new Producto
+            {
+                IdProducto = 4,
+                Nombre = "Producto 4",
+                Descripcion = "Descripcion 4",
+                Cantidad = 4
+            }
 
         };
         
